@@ -1,0 +1,19 @@
+{
+  "name": "mcp-notepad",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An MCP server that controls Windows Notepad via PowerShell automation.",
+  "bin": {
+    "mcp-notepad": "servers/notepad-mcp.mjs"
+  },
+  "scripts": {
+    "start": "node servers/notepad-mcp.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
